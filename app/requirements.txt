@@ -1,0 +1,7 @@
+Django>=5.1
+gunicorn
+psycopg2-binary
+django-environ
+django-cors-headers
+Pillow
+python-dotenv
