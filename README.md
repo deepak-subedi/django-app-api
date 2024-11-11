@@ -1,4 +1,4 @@
-#### Run below command after setting all up within setup and deploy folder
+## Run below command after setting all up within setup and deploy folder
 
 ## run aws-vault to get the user credentials
 
@@ -7,7 +7,7 @@
 
 ## Then initialize the terraform backend and run other commands
 
-# For setup
+## For setup
 
 1. docker compose run --rm terraform -chdir=setup init
 2. docker compose run --rm terraform -chdir=setup fmt
@@ -17,7 +17,7 @@
 5. docker compose run --rm terraform -chdir=setup output ecr_repo_app
 6. docker compose run --rm terraform -chdir=setup output ecr_repo_proxy
 
-# For deploy
+## For deploy
 
 1. docker compose run --rm terraform -chdir=deploy init
 2. docker compose run --rm terraform -chdir=deploy fmt
