@@ -3,7 +3,7 @@
 ## run aws-vault to get the user credentials
 
 1. cd infra
-2. aws-vault exec <aws-profile-name> --duration=8h
+2. aws-vault exec :aws-profile-name --duration=8h
 
 ## Then initialize the terraform backend and run other commands
 
